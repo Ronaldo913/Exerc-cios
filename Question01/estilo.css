@@ -1,0 +1,58 @@
+body{
+    height: 97.5vh;
+}
+
+#corpo{
+    display: flex;
+    flex-flow: column;
+    height: 97.5vh;
+}
+
+header{
+    border: solid 1px red;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+footer{
+    border: solid 1px red;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+main{
+    flex-grow: 1;
+    flex-basis: auto;
+
+    display: flex;
+    flex-flow: row;
+}
+
+#menu{
+    flex-grow: 0;
+    flex-basis: 130px;
+    border: 1px solid green;
+    margin: 5px;
+    margin-left: 0;
+}
+
+#call-to-action{
+    flex-grow: 0;
+    flex-basis: 130px;
+    border: 1px solid green;
+    margin: 5px;
+    margin-right: 0;
+}
+
+#content{
+    flex-grow: 1;
+    flex-basis: auto;
+    border: 1px solid blue;
+    margin: 5px;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+}
