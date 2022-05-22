@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #98ebeb;
@@ -51,10 +52,23 @@ body {
 
 #c1 {
     width: 50%;
-    display: inline-block;
-    position: relative;
+=======
+
+
+#titulo{
+    background-color: rgb(100, 11, 184);
+    color: white;
+    text-align: center;
 }
 
+#c1{
+    width: 100%;
+>>>>>>> 0c205cff2e18bc60010fbcf0fb2d3536db920f0c
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+<<<<<<< HEAD
 #c1 #name1 {
     border: transparent;
     border-bottom: solid grey 1px;
