@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #98ebeb;
 
@@ -7,52 +7,77 @@ body{
     top: 0;
     left: 0;
 
-    
 }
 
-#row{
+#row {
     width: 600px;
     height: 500px;
     top: 50%;
     left: 50%;
     margin-top: -250px;
     margin-left: -300px;
-    
+
     padding: 0 0 0 0;
     border-radius: 6px;
 
     flex-flow: row;
     position: absolute;
 
-    background-color: rgb(224, 219, 219);
+    background-color: white;
 
 }
 
-#titulo{
+#titulo {
     width: 600px;
-    height: 12%;
+    height: 10%;
     margin: 0 0;
     border-radius: 6px 6px 0 0;
 
     background-color: #5110bb;
 
     margin-bottom: 10px;
-    
+
 }
 
-#titulo h3{
+#titulo h3 {
     text-align: center;
     margin: 0;
 
     color: white;
+
+    position: relative;
+    top: 15px;
 }
 
-#c1{
+#c1 {
     width: 50%;
     display: inline-block;
     position: relative;
 }
 
-#c2{
+#c1 #name1 {
+    border: transparent;
+    border-bottom: solid grey 1px;
+}
+
+#c2 {
     width: 50%;
+}
+
+#c2 #name2 {
+    border: transparent;
+    border-bottom: solid grey 1px;
+}
+
+#c3, #c4{
+    color: black;
+}
+
+#c4 div input{
+    border: solid 10px black;
+}
+
+form{
+    color: grey;
+    padding: 20px 20px 0 20px;
 }
