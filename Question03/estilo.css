@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #98ebeb;
@@ -10,7 +9,7 @@ body {
 
 }
 
-#row {
+#formulario {
     width: 600px;
     height: 500px;
     top: 50%;
@@ -50,40 +49,75 @@ body {
     top: 15px;
 }
 
-#c1 {
-    width: 50%;
-=======
-
-
 #titulo{
     background-color: rgb(100, 11, 184);
     color: white;
     text-align: center;
 }
 
-#c1{
+#cc1{
     width: 100%;
->>>>>>> 0c205cff2e18bc60010fbcf0fb2d3536db920f0c
     display: inline-block;
     padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
-#c1 #name1 {
-    border: transparent;
-    border-bottom: solid grey 1px;
+#c1, #c2{
+    width: 50%;
+    float: left;
 }
 
-#c2 {
-    width: 50%;
+#c1 #name1{
+    width: 95%;
+    border: transparent;
+    border-bottom: solid grey 1px;
 }
 
 #c2 #name2 {
+    width: 95%;
     border: transparent;
     border-bottom: solid grey 1px;
 }
 
-#c3, #c4{
+#cc2{
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+#c3{
+    width: 50%;
+    float: left;
+    /* display: inline-block; */
+}
+
+#c33, #c34{
+    width: 50%;
+    float: left;
+} 
+
+#c31{
+    width: 100%;
+    display: inline-block;
+}
+
+#c311{
+    width: auto;
+    float: left;
+} 
+#c312{
+    width: 50%;
+    float: left;
+    padding-left: 8px;
+}
+
+#c3121{
+    padding-bottom: 6px;
+}
+
+#c5 #email{
+    width: 100%;
+}
+/* #c3, #c4{
     color: black;
 }
 
@@ -94,8 +128,8 @@ body {
 #c5 #age{
     border: transparent;
     border-bottom: solid grey 1px;
-}
-
+} */
+/* 
 #c6 #email{
     border: transparent;
     border-bottom: solid grey 1px;
@@ -109,7 +143,7 @@ body {
 #c8 #confirm{
     border: transparent;
     border-bottom: solid grey 1px;
-}
+} */
 
 form{
     color: grey;
