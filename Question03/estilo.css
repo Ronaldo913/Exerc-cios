@@ -58,7 +58,7 @@ body {
 #cc1{
     width: 100%;
     display: inline-block;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
 }
 
 #c1, #c2{
@@ -81,7 +81,7 @@ body {
 #cc2{
     width: 100%;
     display: inline-block;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
 }
 
 #c3{
@@ -92,7 +92,7 @@ body {
 
 #c33, #c34{
     width: 50%;
-    float: left;
+    float: left; 
 } 
 
 #c31{
@@ -116,7 +116,31 @@ body {
 
 #c5 #email{
     width: 100%;
+    border: transparent;
+    border-bottom: solid grey 1px;
 }
+
+#c5{
+    padding-bottom: 24px;
+}
+
+#cc3{
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 24px;
+}
+
+#c6, #c7{
+    width: 50%;
+    float: left;
+}
+
+#c6  #new, #c7 #confirm{
+    width: 95%;
+    border: transparent;
+    border-bottom: solid grey 1px;
+}
+
 /* #c3, #c4{
     color: black;
 }
