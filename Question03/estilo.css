@@ -10,12 +10,12 @@ body {
 }
 
 #formulario {
-    width: 600px;
-    height: 500px;
+    width: 440px;
+    height: 445px;
     top: 50%;
     left: 50%;
-    margin-top: -250px;
-    margin-left: -300px;
+    margin-top: -222.5px;
+    margin-left: -220px;
 
     padding: 0 0 0 0;
     border-radius: 6px;
@@ -28,8 +28,8 @@ body {
 }
 
 #titulo {
-    width: 600px;
-    height: 10%;
+    width: 440px;
+    height: 13%;
     margin: 0 0;
     border-radius: 6px 6px 0 0;
 
@@ -141,33 +141,22 @@ body {
     border-bottom: solid grey 1px;
 }
 
-/* #c3, #c4{
-    color: black;
+#c8 button{
+    width: 100%;
+    height: 30px;
+
+    margin: 0 0 15px 0;
 }
 
-#c4 div input{
-    border: solid 10px black;
+#c8 #b1{
+    background-color: rgba(128, 128, 128, 0.3);
+    border: none;
 }
 
-#c5 #age{
-    border: transparent;
-    border-bottom: solid grey 1px;
-} */
-/* 
-#c6 #email{
-    border: transparent;
-    border-bottom: solid grey 1px;
+#c8 #b2{
+    background-color: rgb(100, 11, 184);
+    border: none;
 }
-
-#c7 #new{
-    border: transparent;
-    border-bottom: solid grey 1px;
-}
-
-#c8 #confirm{
-    border: transparent;
-    border-bottom: solid grey 1px;
-} */
 
 form{
     color: grey;
