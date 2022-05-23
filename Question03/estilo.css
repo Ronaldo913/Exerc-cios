@@ -46,7 +46,7 @@ body {
     color: white;
 
     position: relative;
-    top: 15px;
+    top: 18px;
 }
 
 #titulo{
@@ -66,16 +66,22 @@ body {
     float: left;
 }
 
+#c1 label, #c2 label{
+    font-size: 11px;
+    color: rgba(150, 148, 148, 0.7);
+}
+
 #c1 #name1{
     width: 95%;
     border: transparent;
-    border-bottom: solid grey 1px;
+    border-bottom: solid rgba(150, 148, 148, 0.7) 1px;
+    
 }
 
 #c2 #name2 {
     width: 95%;
     border: transparent;
-    border-bottom: solid grey 1px;
+    border-bottom: solid rgba(150, 148, 148, 0.7) 1px;
 }
 
 #cc2{
@@ -84,10 +90,17 @@ body {
     padding-bottom: 24px;
 }
 
+#c31{
+    color: black;
+}
+
+#c31 #c311{
+    font-size: 11px;
+}
+
 #c3{
     width: 50%;
     float: left;
-    /* display: inline-block; */
 }
 
 #c33, #c34{
@@ -114,14 +127,35 @@ body {
     padding-bottom: 6px;
 }
 
+#c4{
+    width: 50%;
+    float: left;
+}
+
+#c4 #age{
+    width: 100%;
+    border: transparent;
+    border-bottom: solid rgba(150, 148, 148, 0.7) 1px;
+}
+
+#c4 label{
+    font-size: 11px;
+    color: rgba(150, 148, 148, 0.7);
+}
+
 #c5 #email{
     width: 100%;
     border: transparent;
-    border-bottom: solid grey 1px;
+    border-bottom: solid rgba(150, 148, 148, 0.7) 1px;
 }
 
 #c5{
     padding-bottom: 24px;
+}
+
+#c5 label{
+    font-size: 11px;
+    color: rgba(150, 148, 148, 0.7);
 }
 
 #cc3{
@@ -138,7 +172,7 @@ body {
 #c6  #new, #c7 #confirm{
     width: 95%;
     border: transparent;
-    border-bottom: solid grey 1px;
+    border-bottom: solid rgba(150, 148, 148, 0.7) 1px;
 }
 
 #c8 button{
@@ -151,11 +185,13 @@ body {
 #c8 #b1{
     background-color: rgba(128, 128, 128, 0.3);
     border: none;
+    color: rgb(122, 122, 122);
 }
 
 #c8 #b2{
     background-color: rgb(100, 11, 184);
     border: none;
+    color: white;
 }
 
 form{
